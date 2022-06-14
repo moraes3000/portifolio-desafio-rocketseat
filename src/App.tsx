@@ -5,6 +5,10 @@ import { CardTecnologia } from './components/CardTecnologia'
 import { CardProfile } from './components/CardProfile'
 import { CardExperiencia } from './components/CardExperiencia'
 import { CardEducacao } from './components/CardEducacao'
+import { MeusProjetos } from './components/MeusProjetos'
+import { ProjetoRecente } from './components/ProjetoRecente'
+import { PostRecente } from './components/PostRecent'
+import { Blog } from './components/Blog'
 
 function App() {
 
@@ -19,7 +23,12 @@ function App() {
           <CardExperiencia />
           <CardEducacao />
         </div>
-        <div className={styles.direita}>Coluna direita</div>
+        <div className={styles.direita}>
+          <MeusProjetos />
+          <ProjetoRecente />
+          <PostRecente />
+          <Blog />
+        </div>
       </div>
     </>
   )
