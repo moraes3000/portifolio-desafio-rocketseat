@@ -1,0 +1,57 @@
+.card{
+  background:var(--bg-cards);
+  border-radius:20px;
+
+
+  margin: 1rem 0;
+  padding:1rem;
+}
+
+.card img{
+  width:24px;
+  height:24px;
+  margin-right: 1rem;
+}
+
+.card a{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  display:flex;
+  align-items: center;
+  margin: 0.7rem 0;
+}
+
+.tecnologiaList{
+
+
+
+}
+.item{
+ display:flex; 
+ flex-direction: column;
+ margin: 0.5rem;
+}
+.item strong{
+  font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+}
+
+.item span{
+display:block;
+font-style: normal;
+
+line-height: 15px;
+margin-left: 1.35rem;
+font-size: 12px;
+}
+
+.date{
+  font-weight: 300;
+
+}
+.office{
+font-weight: 700;
+
+}

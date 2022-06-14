@@ -1,0 +1,31 @@
+.card{
+  background:var(--bg-cards);
+  border-radius:20px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding:1rem;
+}
+
+.card strong{
+  line-height: 29px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card p{
+font-weight: 300;
+font-size: 0.8rem;
+line-height: 16px;
+margin-bottom:2rem;
+}
+
+.avatar{
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  border:2px solid #00ff00;
+  margin: 2rem;
+}

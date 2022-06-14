@@ -1,0 +1,26 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+body{
+  background:var(--body-bg-color);
+  color:var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Merriweather Sans', sans-serif;
+
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+
+
+a{
+  text-decoration: none;
+  color:var(--text-color);
+}
+a:hover{
+  cursor: pointer;
+}

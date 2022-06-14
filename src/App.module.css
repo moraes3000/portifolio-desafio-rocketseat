@@ -1,0 +1,14 @@
+.wrapper{
+  display:flex;
+  gap: 2rem;
+}
+
+.esquerda{
+  width:350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.direita{
+  flex:1;
+}
