@@ -22,7 +22,14 @@ function App() {
             img='https://avatars.githubusercontent.com/u/29808643?v=4'
             office='Desenvolvedor Web' />
 
-          <CardContatos />
+          <CardContatos
+            local='Brasil - Mauá - SP'
+            git='https://github.com/moraes3000'
+            linkedin='https://www.linkedin.com/in/bruno-barbeiro-moraes-bbb043123/'
+            site='https://bruno-portifolio-nextjs.vercel.app/'
+            mail='bruno_bmoraes@hotmail.com'
+            insta='https://www.instagram.com/brun0.moraes/'
+          />
           <CardTecnologia />
           <CardExperiencia />
           <CardEducacao />
