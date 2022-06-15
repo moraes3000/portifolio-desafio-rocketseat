@@ -12,3 +12,12 @@
 .direita{
   flex:1;
 }
+
+@media only screen and (max-width: 600px) {
+  .wrapper{ 
+  flex-direction: column;   
+  }
+  html{
+    font-size:87.5%;
+  }
+}
