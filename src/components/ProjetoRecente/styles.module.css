@@ -10,10 +10,13 @@
   margin: 1rem 0;
   padding:1rem;
 
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
-.card header{
+.card header a{
 display: flex;
 align-items: center;
 margin-bottom: 1rem;

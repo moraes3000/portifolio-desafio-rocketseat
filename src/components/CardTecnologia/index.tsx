@@ -15,8 +15,8 @@ export function CardTecnologia() {
         <TecnologiaItem title='Github' />
         <TecnologiaItem title='html' />
         <TecnologiaItem title='css' />
-        <TecnologiaItem title='elixir' />
-        <TecnologiaItem title='react native' />
+        <TecnologiaItem title='Django' />
+        <TecnologiaItem title='Flutter' />
 
       </div>
     </div>
