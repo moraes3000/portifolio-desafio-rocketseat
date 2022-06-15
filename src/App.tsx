@@ -17,7 +17,11 @@ function App() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.esquerda}>
-          <CardProfile />
+          <CardProfile
+            name='Bruno Barbeiro Moraes'
+            img='https://avatars.githubusercontent.com/u/29808643?v=4'
+            office='Desenvolvedor Web' />
+
           <CardContatos />
           <CardTecnologia />
           <CardExperiencia />

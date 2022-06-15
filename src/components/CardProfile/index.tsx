@@ -1,11 +1,17 @@
 import styles from './styles.module.css'
 
-export function CardProfile() {
+interface ProfileProps {
+  img: string;
+  name: string;
+  office: string;
+}
+
+export function CardProfile({ img, name, office }: ProfileProps) {
   return (
     <div className={styles.card}>
-      <img src='https://avatars.githubusercontent.com/u/29808643?v=4' alt='Imagem Avata Github' className={styles.avatar} />
-      <strong>Bruno Barbeiro Moraes</strong>
-      <p>Desenvolvedor Web</p>
+      <img src={img} alt='Imagem Avata Github' className={styles.avatar} />
+      <strong>{name}</strong>
+      <p>{office}</p>
     </div>
   )
 }
